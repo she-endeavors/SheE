@@ -1,0 +1,12 @@
+li {
+    display:inline;
+    padding: 1px 4px;
+}
+
+.navbar {
+    background: #D428AC;
+}
+
+.nav-link {
+    color: white;
+}
