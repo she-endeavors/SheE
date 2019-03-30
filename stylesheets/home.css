@@ -7,10 +7,9 @@ li {
     background: #D428AC;
 }
 
-.nav-link {
+.navbar-light {
     color: white;
 }
-
-.navbar-light{
+.navbar-nav .nav-link {
     color: white;
 }
