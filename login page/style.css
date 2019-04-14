@@ -51,6 +51,17 @@ body{
 	transition: 0.25s;
 	cursor: pointer;
 }
+.box input[type="button"]{
+	border: 0;
+	background: none;
+	margin: 2px;
+	text-align: center;
+	padding: 4px 40px;
+	outline: none;
+	color: #3498db;
+	transition: 0.25s;
+	cursor: pointer;
+}
 .box input[type="submit"]:hover{
 	background: #D428AC;
 }
