@@ -1,0 +1,67 @@
+.container{
+    margin:2.5rem auto;
+}
+
+.breadcrumb{
+    background-color: transparent;
+    width: 100%;
+    padding: 0;
+    font-weight: 600;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    content:'>';
+    color:black;
+    font-weight: 600;
+}
+
+.btn-primary{
+    background: #D428AC;
+    border-color: #D428AC;
+    border-radius: 0;
+}
+
+.btn-primary:hover{
+    background: #DF62C2;
+    border-color: #DF62C2; 
+}
+
+.card{
+    width:18.75rem;
+    height: 18.75rem;
+    cursor: pointer;
+}
+
+
+.card-body{
+    background-color: #D428AC;
+    color: white;
+    padding: 0.7rem;
+}
+
+.card-text{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.card-text:first-of-type{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card-text:last-of-type{
+    text-align: right;
+}
+
+.trending-stories{
+    margin-left: 90px;
+}
+
+.trending-stories-heading{
+    text-align: center;
+    margin:1rem 0;
+}
+
+.trending-stories .card{
+    margin: 1rem auto;
+}
