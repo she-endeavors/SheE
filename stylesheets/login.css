@@ -2,29 +2,33 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: #D428AC;
+	background: #fff;
+}
+.women{
+	position: absolute;
+	padding-left: 200px;
+	padding-top: 80px;
+	height: 500px;
+	width: 700px;
 }
 .box{
-	width: 300px;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 65%;
 	transform: translate(-50%,-50%);
-	background: #fff;
 	text-align: center;
 }
 .box input[type="text"],.box input[type="password"]{
 	border: 0;
-	background: none;
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 2px solid #3498db;
+	border: 2px solid #000000;
 	padding: 14px 10px;
 	width: 200px;
 	outline: none;
-	color: white;
+	color: black;
 	border-radius: 24px;
 	transition: 0.25s;
 }
@@ -39,11 +43,11 @@ body{
 }
 .box input[type="submit"]{
 	border: 0;
-	background: none;
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 2px solid #3498db;
+	background: white;
+	border: 2px solid #000000;
 	padding: 14px 40px;
 	outline: none;
 	color: black;
@@ -58,7 +62,7 @@ body{
 	text-align: center;
 	padding: 4px 40px;
 	outline: none;
-	color: #3498db;
+	color: #000000;
 	transition: 0.25s;
 	cursor: pointer;
 }
