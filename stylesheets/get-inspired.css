@@ -1,5 +1,10 @@
-.container{
-    margin:2.5rem auto;
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    margin:2rem auto;
+    padding: 0 2.5rem;
 }
 
 .breadcrumb{
@@ -26,10 +31,14 @@
     border-color: #DF62C2; 
 }
 
+.all-stories{
+    display: inline-block;
+    width:65%;
+}
+
 .card{
     width:18.75rem;
     height: 18.75rem;
-    cursor: pointer;
 }
 
 
@@ -54,7 +63,9 @@
 }
 
 .trending-stories{
-    margin-left: 90px;
+    display: inline-block;
+    width: 30%;
+    margin-left: 2rem;
 }
 
 .trending-stories-heading{
@@ -65,3 +76,47 @@
 .trending-stories .card{
     margin: 1rem auto;
 }
+
+
+@media screen and (max-width:1100px){
+    .all-stories{
+        width:100%;
+        display: block;
+    }
+
+    .all-stories .col-lg-6 .card{
+        margin:0 auto;
+    }
+
+    .trending-stories{
+        width:50%;
+        display: block;
+        margin: 2rem auto;
+    }
+
+}
+
+@media screen and (max-width:830px){
+    .all-stories .col-lg-6{
+        margin:0 auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    .btn{
+        margin:3px;
+    }
+
+    .all-stories .row{
+        margin:0 !important;
+    }
+    .all-stories .col-lg-6 .card{
+        margin: 20px auto;
+    }
+    .trending-stories{
+        width: 100%;
+    }
+
+}
+
+
