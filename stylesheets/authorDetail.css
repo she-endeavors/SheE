@@ -4,16 +4,36 @@
 
 .navbar {
     background: #D428AC;
+    
+}
+
+.nav-item{
+    padding-left: 30px;
+}
+
+.dropdown-menu{
+    min-width: 95px;
+    padding: 19px 7px;
+   
 }
 
 .btn{
     background: #D428AC;
 }
 
-.container-fluid{
-    margin:2rem auto;
-    padding: 0 2.5rem;
+.container-fluid-editor{
+    margin:3rem ;
+    padding: 15 2.5rem;
+    margin-left: 3rem;
 }
+
+.editor-child{
+    margin-left: 2rem;
+    margin-right: 2rem; 
+    width: 4px;  
+}
+
+
 
 .breadcrumb{
     background-color: transparent;
@@ -101,8 +121,6 @@
     height: 30em;
     font-size: 1.2em;
   }
-
-
 
 .trending-stories{
     display: inline-block;

@@ -1,18 +1,7 @@
 .navbar {
-  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    background: #D428AC;
 }
-.navbar-dark .navbar-toggler{
-  color: black;
-}
-.navbar-dark .navbar-nav .nav-link {
-    color:white;
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-  color: #ccc;
-}
-.navbar-collapse, .dropdown-menu{
-  text-align: center;
-}
+
 .page-title{
   margin: 1em 0em 0.2em 0em;
   padding: 0.2em;
@@ -80,31 +69,15 @@ input.page-title::placeholder{
 .save-review-btns{
   margin: 2em 1em 2em 1em;
 }
-.btn-save{
-  background-color: #d7d2cc;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-  color: black;
-}
-.btn-save:hover{
-  background-color: #ccc
-}
-.btn-review{
-  background-color: #304352;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-  color:white;
 
-}
-.btn-review:hover{
-  background-color: #37386B;
-}
+
 @media all and (min-width: 480px) and (max-width: 1024px) {
   .editor-panel span{
     margin-top: 1em;
   }
+}
+
+.btn{
+    background: #D428AC;
+  
 }

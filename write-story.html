@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>She Endeavors</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Stylesheets-->
+  <link href="stylesheets/write_story.css" rel="stylesheet">
+
+  <!-- Fontawesome cdn -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light static-top">
+    <img class="responsive-img brand-logo hide-on-med-and-up" src="images/logo-100.png">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="u-get-inspired.html">Get Inspired</a>
+        </li>
+        <li class="nav-item">
+              
+              <div class="dropdown">
+                      <button class="btn btn- dropdown-toggle" type="button" data-toggle="dropdown">Mani
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Profile</a></li> <br />
+                        <li><a href="#">Bookmark</a></li><br />
+                        <li><a href="stories.html">Dashboard</a></li><br />
+                        <li><a href="#">Logout</a></li>
+                      </ul>
+                    </div>
+          </li>
+      </ul>  
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <input class="page-title" type="text" placeholder="Input title of the story"/>
+        <br /><br />
+        <button type="button"  class="btn">Choose title image</button>
+        <div class="container editor">
+          <div class="editor-panel">              <span class="fas fa-undo" data-toggle="tooltip" data-placement="bottom" title="Undo"></span>
+            <span class="fas fa-redo" data-toggle="tooltip" data-placement="bottom" title="Redo"></span>
+            <span class="fas fa-bold" data-toggle="tooltip" data-placement="bottom" title="Bold"></span>
+            <span class="fas fa-italic" data-toggle="tooltip" data-placement="bottom" title="Italic"></span>
+            <span class="fas fa-heading" data-toggle="tooltip" data-placement="bottom" title="Header1">1</span>
+            <span class="fas fa-heading" data-toggle="tooltip" data-placement="bottom" title="Header2">2</span>
+            <span class="fas fa-underline" data-toggle="tooltip" data-placement="bottom" title="Underline"></span>
+            <span class="fas fa-indent" data-toggle="tooltip" data-placement="bottom" title="Indent-Left"></span>
+            <span class="fas fa-indent" data-toggle="tooltip" data-placement="bottom" title="Indent-Right"></span>
+            <span class="fas fa-align-left"data-toggle="tooltip" data-placement="bottom" title="Align"><i class="fas fa-caret-down"></i></span>
+            <span class="fas fa-link" data-toggle="tooltip" data-placement="bottom" title="Add link"></span>
+            <span class="fas fa-image" data-toggle="tooltip" data-placement="bottom" title="Add images"></span>
+            <span class="fas fa-quote-left" data-toggle="tooltip" data-placement="bottom" title="Quotes"><i class="fas fa-caret-down"></i></span></span>
+            <span class="fas fa-video" data-toggle="tooltip" data-placement="bottom" title="Add video"></span>
+            <span class="fas fa-times" data-toggle="tooltip" data-placement="bottom" title="Clear"></span>
+          </div>
+          <textarea class="editor-child"></textarea>
+        </div>
+        <div class="tags container-fluid">
+            <p>Add tags:</p>
+                <div class="row add-tags">
+                  <div class="col-md-4">
+                      <label for="#tag-label"> Tag Name:
+                        <input id="tag-label" type="text" placeholder="New tag name...">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="#tag-description"> Description:
+                      <input id="tag-description" type="text" placeholder="Optional Description...">
+                  </div>
+                  <div class="col-md-4">
+                    <button type="button" name="button" class="btn btn-danger cancelBtn">Cancel</button>
+                    <button type="button" name="button" class="btn btn-success createBtn">Create</button>
+                  </div>
+                </div>
+            </div>
+            <div class="save-review-btns">
+              <button type="button" name="button" class="btn">Save</button>
+              <button type="button" name="button" class="btn">Save for review</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  <script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+  </script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

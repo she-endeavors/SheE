@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+.nav-item{
+    padding-left: 30px;
+}
+
+
+
+.dropdown-menu{
+    min-width: 95px;
+    padding: 19px 5px;
+   
+}
+
 .container-fluid{
     margin:2rem auto;
     padding: 0 2.5rem;

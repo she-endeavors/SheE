@@ -1,0 +1,22 @@
+li {
+    display:inline;
+    padding: 1px 4px;
+}
+
+.navbar {
+    background: #D428AC;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+div.table{
+  
+    padding-left: 280px;
+}
+
+.btn{
+    background: #D428AC;
+  
+}
