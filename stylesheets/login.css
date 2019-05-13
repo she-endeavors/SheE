@@ -4,12 +4,17 @@ body{
 	font-family: sans-serif;
 	background: #fff;
 }
+
+.navbar-item{
+	padding-left: 800px;
+}
+
 .women{
 	position: absolute;
 	padding-left: 200px;
-	padding-top: 80px;
-	height: 500px;
-	width: 700px;
+	padding-top: 60px;
+	height: 40em;
+	width: 50em;
 }
 .box{
 	padding: 40px;
@@ -70,3 +75,40 @@ body{
 	background: #D428AC;
 	border: none;
 }
+
+@media only screen and (max-width: 600px)
+{
+	.women{
+		padding-left: 3%;
+		padding-top: 5%;
+	}
+
+	.box{
+
+		top: 91%;
+		left: 50%;
+	}
+	
+	.navbar{
+		width: 100%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1024px){
+
+	.women{
+		padding-left: 3%;
+		padding-top: 2%;
+	}
+
+	.box{
+
+		top: 36%;
+		left: 75%;
+	}
+
+	.navbar{
+		width: 100%;
+	}
+}
+
