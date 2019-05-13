@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Author's story page</title>
+  <title>Author details page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,6 +18,8 @@
 
   <!-- fonts-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
 </head>
 
 <body>
@@ -39,20 +41,22 @@
             <a class="nav-link" href="#">Menu 2</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="get-inspired.html">Get Inspired</a>
+            <a class="nav-link" href="u-get-inspired.html">Get Inspired</a>
           </li>
           <li class="nav-item">
                 
-                <div class="dropdown">
-                        <button class="btn btn- dropdown-toggle" type="button" data-toggle="dropdown">Mani
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Profile</a></li> <br />
-                          <li><a href="#">Bookmark</a></li><br />
-                          <li><a href="#">Dashboard</a></li><br />
-                          <li><a href="#">Logout</a></li>
-                        </ul>
-                      </div>
+            <div class="dropdown">
+              <button class="bt  dropdown-toggle" type="button" data-toggle="dropdown">Mani
+              <img src="images/profile.jpg" class="img">
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">profile</a></li>
+                <li><a href="#">Bookmarks</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </div>
+            
             </li>
         </ul>  
       </div>
@@ -60,7 +64,7 @@
 
     <br /><br />
 
-    <div class="container">
+    <div class="area">
 
         <p>She finds the biggest potential for sustainability, from being a passionate Dancer to Motivational Speaker   </p>
         <img src="https://picsum.photos/200" class="card" alt="Placeholder Image" >
@@ -73,12 +77,15 @@
 
             <div class="col-md-8">
             
-              <div class="container-fluid editor">
+              <div class="container-fluid-editor">
 
                   <div class="editor-panel"> 
 
+                    <div class="item">
                     <div class="row">
                         
+                       
+                       
                         <div class="col-md-3">
                           <p> Add to </p><i class="fas fa-bookmark"></i> 
                         </div>
@@ -99,57 +106,40 @@
                           <i class="fab fa-linkedin-in"></i>
                         </div>
                     
+                        </div>
                       </div>
                       <br />
 
-                      <textarea class="editor-child"></textarea>
+                      <textarea class="editor-child" width="50%"></textarea>
 
                 </div>
 
                 <br /><br />
 
                 
+                  
                     <div class="row">
 
                           <div class="col-md-4">
-                              <img src="https://picsum.photos/200" class="card-img-top" alt="Image of writer">
+                              <img src="https://picsum.photos/200" class="card-img-top" alt="Image of writer" style="margin-left: 60px">
                           </div>
 
-                          <div class="col-md-6">
+                          <div class="col-md-6" style="margin-left: 50px">
                             <p>Name of Writer: writer_name</p>
                             <p>Written on: time _stamp</p>
                             <p>Category:</p>
+                            <p>Number of view:#_views</p>
+                            <p>About the writer: .............................</p>
+                            <p>..........................</p>
+                            <p>...........................</p>
                           </div>
 
-                      </div>
+                      
                   </div>
+                  </div>
+                 </div>
 
-            
-
-                
-                 
-            
-            </div>
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="col-md-4">
+        <div class="col-md-4">
                 
                     <div class="p-0 trending-stories border border-dark">
                             <h3 class="trending-stories-heading">Trending Stories</h3>
@@ -184,8 +174,21 @@
         </div>
     </div>
 
+    <div class="comment">
+                
+            <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea" ></textarea>
+            <br />
+            <button class="bt" type="button"><i class="fas fa-video"></i></button>
+            <button class="bt" type="button"><span class="fa fa-microphone fa-lg"></span></button>
+            <button class="bt" type="button"><i class="fas fa-image"></i></span></button>
+            <button class="bt btn-primary pull-right" type="button">comment</button>
+                     
+    </div>
 
-    <script src="vendor/jquery/jquery.min.js"></script>
+  <br /><br />
+
+
+  <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 

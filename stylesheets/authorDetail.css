@@ -4,16 +4,53 @@
 
 .navbar {
     background: #D428AC;
+    
+}
+
+.img {
+    border-radius: 50%;
+  width:25px;
+  
+}
+
+
+.nav-item{
+    padding-left: 30px;  
+}
+
+.dropdown{
+    padding-right: 50px;
+}
+
+.dropdown-menu{
+    min-width: 95px;
+    padding-left: 15px;
+    padding-right: 15px;   
 }
 
 .btn{
     background: #D428AC;
+    margin-left: 10px;
+    width: 100px;
 }
 
-.container-fluid{
-    margin:2rem auto;
-    padding: 0 2.5rem;
+.bt{
+    background: #D428AC;
+
 }
+
+.container-fluid-editor{
+    margin:3rem ;
+    padding: 15 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.editor-child{
+   
+    padding-left: 3px; 
+}
+
+
 
 .breadcrumb{
     background-color: transparent;
@@ -28,6 +65,11 @@
     font-weight: 600;
 }
 
+.item{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
 .btn-primary{
     background: #D428AC;
     border-color: #D428AC;
@@ -39,9 +81,34 @@
     border-color: #DF62C2; 
 }
 
+.btn-group{
+    padding-left: 0px;
+}
+
+.area{
+    padding-left: 108px;
+}
+
+.form-inline{
+    padding-left: 0%;
+}
+
 .all-stories{
     display: inline-block;
     width:65%;
+}
+
+.pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 100px;
+}
+
+.pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 500px;
+    border: 1px solid rgb(15, 15, 15);
 }
 
 .card{
@@ -102,8 +169,6 @@
     font-size: 1.2em;
   }
 
-
-
 .trending-stories{
     display: inline-block;
     width: 80%;
@@ -137,6 +202,13 @@
     }
 
 }
+
+.comment{
+
+    padding-left: 6%;
+}
+
+
 
 @media screen and (max-width:830px){
     .all-stories .col-lg-6{
