@@ -1,72 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	background: #fff;
+	padding: 0;	
 }
-.women{
-	position: absolute;
-	padding-left: 200px;
-	padding-top: 80px;
-	height: 500px;
-	width: 700px;
+
+
+.women-image{
+	max-height: 480px;
+	max-width: 480px;
+	width: 100%;
+	margin: 0 auto;
+	transition: all 0.5s;
 }
-.box{
-	padding: 40px;
-	position: absolute;
-	top: 50%;
-	left: 65%;
-	transform: translate(-50%,-50%);
+
+.form-container{
+	margin:0 auto;
 	text-align: center;
+	max-width: 400px;
+	height: 480px;
+	background:linear-gradient(-50deg, transparent, #EB9DD9), url('../images/woman-image2.png') right/contain no-repeat;
+	border-radius: 10px;
+	box-shadow: 1.5px 1.5px 4px 2px #ccc;
 }
-.box input[type="text"],.box input[type="password"]{
-	border: 0;
+
+.form-container h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 4rem;
+	color:#000;
+}
+
+.form-container input::-webkit-input-placeholder{
+	color:#000;
+}
+
+.form-container input[type="text"],.form-container input[type="password"],.form-container input[type="submit"],.form-container button{
 	display: block;
-	margin: 20px auto;
+	margin: 16px auto;
 	text-align: center;
-	border: 2px solid #000000;
-	padding: 14px 10px;
-	width: 200px;
+	border: 2px solid transparent;
+	border-radius: 40px;
+	padding: 8px 16px;
+	width:70%;
 	outline: none;
-	color: black;
-	border-radius: 24px;
-	transition: 0.25s;
+	color: #000;
+	background:rgba(255,255,255,0.9);
+	transition: all 0.7s;
 }
-.box h1{
-	color: black;
-	text-transform: uppercase;
-	font-weight: 500;
-}
-.box input[type="text"]:focus,.box input[type="password"]:focus{
-	width: 280px;
+
+.form-container input[type="text"]:focus,.form-container input[type="password"]:focus{
+	border:2px solid #000;
+	outline: none;
 	border-color: #D428AC;
+	background-color: rgba(255,255,255,1);
+	transition: all 0.7s;
 }
-.box input[type="submit"]{
-	border: 0;
-	display: block;
-	margin: 20px auto;
-	text-align: center;
-	background: white;
-	border: 2px solid #000000;
-	padding: 14px 40px;
-	outline: none;
-	color: black;
-	border-radius: 24px;
-	transition: 0.25s;
+.form-container input[type="submit"],.form-container button{
 	cursor: pointer;
+	background-color: rgba(212, 40, 172,0.78);
+	color: #fff;
+	font-weight: 600;
 }
-.box input[type="button"]{
-	border: 0;
-	background: none;
-	margin: 2px;
-	text-align: center;
-	padding: 4px 40px;
-	outline: none;
-	color: #000000;
-	transition: 0.25s;
-	cursor: pointer;
-}
-.box input[type="submit"]:hover{
+.form-container input[type="submit"]:hover,.form-container button:hover{
 	background: #D428AC;
-	border: none;
+	color: white;
+	transform: scale(1.01);
+}
+
+.form-container button{
+	margin-top:0px;
+}
+
+.form-container p{
+	margin:60px auto 0px;
+}
+
+@media screen and (min-width: 772px) and (max-width:992px){
+	.women-image{
+		padding-top: 100px;
+	}
 }
