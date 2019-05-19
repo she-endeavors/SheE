@@ -9,6 +9,7 @@
 	<link href="stylesheets/home.css" rel="stylesheet">
 </head>
 <body>
+  <!-- Navigation bar -->
 	<nav class="navbar navbar-expand-lg navbar-light static-top">
       <img class="responsive-img brand-logo hide-on-med-and-up" src="images/logo-100.png">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,14 +31,31 @@
             </li>
         </ul>  
       </div>
-    </nav>
-    <img class="women" src="images/woman-355306_960_720.png">
-	<form class="box" action="index.html" method="post">
-		<h1>Login</h1>
-		<input type="text" name="" placeholder="Username">
-		<input type="password" name="" placeholder="Password">
-		<input type="submit" name="" value="Login">
-		<h4>New to SheEndeavors?</h4><input type="button" name="" value="Register.">
-	</form>
+  </nav>
+
+  <!-- Page content -->
+  <div class="container mt-5 mb-5">
+
+    <div class="row">
+      
+      <div class="col-lg-6 col-md-5 col-sm-12">
+        <img class="women-image" src="images/women-login.png">
+      </div>
+      
+    
+      <div class="col-lg-5 col-md-6 col-sm-12">
+        <form class="form-container" action="index.html" method="post">
+        <h1 class="p-2 m-0">Login</h1>
+        <input type="text" name="" placeholder="Username">
+        <input type="password" name="" placeholder="Password">
+        <input type="submit" name="" value="Login">
+        <p>New to SheEndeavors?</p>
+        <button type="button">Register</button>
+      </form> 
+      </div>
+      
+    </div>
+    
+  </div>  
 </body>
 </html>
