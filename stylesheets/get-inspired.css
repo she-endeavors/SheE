@@ -39,8 +39,23 @@
 .card{
     width:18.75rem;
     height: 24.75rem;
+    position: relative;
+    overflow: hidden;
 }
 
+.mybadge{
+    position: absolute;
+    background-color: #D428AC;
+    right:0;
+    top:0;
+    color: white;
+    border-radius: 0;
+    transform: rotate(45deg) translate(44.5px,0px);
+    width:150px;
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
 
 .card-body{
     background-color: #D428AC;
