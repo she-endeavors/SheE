@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.writer-story-heading{
+    color:#D428AC;
+    font-weight:700;
+    margin: 0;
+}
+
+.writer-image-container{
+    display: block;
+    width:250px;
+    height: 250px;
+    margin:1rem auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 2px #ccc;
+    transform: scale(1);
+    border:1px solid transparent;
+    transition: all 0.4s;
+}
+
+.writer-image-container:hover{
+    transform: scale(1.02);
+    border:1px solid #d428ac8c;
+    box-shadow: 1px 1px 5px 2px #ccc;
+}
+
+.writer-image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.writer-details-container{
+    margin:1rem 0;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background:linear-gradient(-180deg, transparent, #eb9dd9b8);
+}
+.writer-details-container h3,.writer-details-container p{
+    margin:4px 0;
+}
+
+.writer-details-container h3{
+    font-weight: bold;
+    color: #D428AC;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 2.5px;
+    font-size: 2rem;
+}
+
+.social-interaction-container{
+    margin:1.5rem 0;
+    text-align: center;
+    border:2px solid #d428ac8c;
+    padding: 1rem;
+}
+
+.social-interaction-heading{
+    color: #d428ac8c;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.social-interaction-icon{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.3s;
+    color: #E0AA62;
+}
+
+.social-interaction-icon:hover{
+    transform: scale(1.1);
+    color: #d428ac8c;
+}
+
+.fab{
+    padding:2px;
+}
+
+
+.story-container{
+    text-align: justify;
+    padding: 1rem 0rem;
+    margin: 0;
+}
+
+.story-container p{
+    margin: 1rem 0;
+}
+
+
+.story-image{
+    width:90%;
+    display: block;
+    max-height: 280px;
+    margin: 1rem auto;
+}
+
+.story-container blockquote{
+ color:#E0AA62;
+ border-left: 5px solid #E0AA62;
+ padding:0.8rem;
+ font-weight: bold;
+}
+
+.comment-container{
+    margin:0;
+    margin-top: 1rem;
+    padding:1rem 0;
+    background:linear-gradient(-150deg, transparent, #eb9dd9b8);
+}
+
+.comment-container div:nth-of-type(2){
+    margin:25px 0;
+}
+
+
+.comment-image-container{
+    width:80px;
+    cursor: pointer;
+    padding-right: 0px;
+}
+
+.comment-image{
+    width: 100%;
+    height: 100%;
+}
+
+.comment-box{
+    border:2px solid #d428ac8c;
+    outline: none;
+    display: block;
+    width: 100%;
+}
+.comment-box:focus,.comment-box:active{
+    outline: none;
+}
+
+.btn-post{
+    display: inline-block;
+    margin:1rem 0px 0px;
+    background-color: #d428ace0;
+    border:none;
+    box-shadow: none;
+    outline: none;
+    transition: all 0.3s;
+    width:80px;
+}
+
+.btn-post:focus{
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.btn-post:active,.btn-post:hover{
+    background-color: #D428AC;
+    border:none;
+}
+
+
+.trending-stories{
+    margin:0px auto;
+    border:2px solid #d428ac8c;
+}
+
+.trending-stories-heading{
+    text-align: center;
+    margin:1rem 0;
+}
+
+.card{
+    width:18.75rem;
+    height: 18.75rem;
+    margin:1rem auto;
+}
+
+.card-body{
+    background-color: #D428AC;
+    color: white;
+    padding: 0.7rem;
+}
+
+.card-text{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.card-text:first-of-type{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card-text:last-of-type{
+    text-align: right;
+}
+
+@media screen and (min-width: 772px) and (max-width:992px){
+    .trending-stories{
+        width:50%;
+        margin:3rem auto;
+    }
+
+    .writer-story-heading{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 772px){
+    .container{
+        margin:3rem auto;
+    }
+    .trending-stories{
+        margin:3rem auto;
+    }
+
+}
+
+
